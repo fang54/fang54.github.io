@@ -1,6 +1,6 @@
 ---
 layout: page
-title: fang的家园
+title: 
 tagline: 那个让你刻苦铭心的名字始终不是我。
 ---
 {% include JB/setup %}
