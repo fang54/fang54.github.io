@@ -11,7 +11,7 @@ highlighter: pygments
 title : 芳芳的花园
 tagline: 那个让你刻苦铭心的名字始终不是我。
 author :
-  name : fang54
+  name : fang
   email : 909051758@qq.com
   github : fang54
   twitter : fang54
@@ -25,7 +25,7 @@ author :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://fang54.github.io
+production_url : http://username.github.io
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -84,27 +84,27 @@ JB :
     disqus :
       short_name : jekyllbootstrap
     livefyre :
-      site_id : fang54blog
+      site_id : 123
     intensedebate :
-      account : fang54
+      account : 123abc
     facebook :
       appid : 123
       num_posts: 5
       width: 580
       colorscheme: light
     duoshuo :
-      short_name : fang54
+      short_name : fang
    
   # Settings for analytics helper
   # Set 'provider' to the analytics provider you want to use.
   # Set 'provider' to false to turn analytics off globally.
   #        
   analytics :
-    provider : google
+    provider : false
     gauges :
-        site_id : 'fang54'
+        site_id : 'SITE ID'
     google : 
-        tracking_id : 'UA-71886989-1'
+        tracking_id : 'UA-123-12'
     getclicky :
       site_id : 
     mixpanel :
@@ -131,10 +131,7 @@ JB :
   # and include your custom code. Your custom file must be defined at:
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
+  
 
-# 每一页显示的文章数
-paginate: 10
-
-paginate_path: "/page:num/"
-#some customer parameters
+#自定义的一些参数
 img_url: http://fang54.github.io/assets/images
