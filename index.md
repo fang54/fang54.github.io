@@ -1,7 +1,7 @@
 ---
 layout: page
-title: 你好世界
-tagline: 贤惠妞，爱自己
+title: fang的家园
+tagline: 那个让你刻苦铭心的名字始终不是我。
 ---
 {% include JB/setup %}
  
