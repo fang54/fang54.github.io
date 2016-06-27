@@ -1,20 +1,28 @@
 ---
-layout: page
-title: 
-tagline: 那个让你刻苦铭心的名字始终不是我。
+layout: default 
+
 ---
-{% include JB/setup %}
  
-你好，世界！
+
+<h4>最新文章</h4>
 
 
-<ul>
+<ul class="posts">
+{% for post in site.posts %}
 
-　　{% for post in site.posts %}
-
-　　　　<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-            <p> {{ post.content  | | split:'<!--break-->' | first }}</p>
-
-　　{% endfor %}
+ <hr>
+   
+  <h4 class="title">
+      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> 
+      <span class="date">{{ post.date | date_to_string }}</span>
+  </h4> 
+      {{ post.content  | | split:'<!--break-->' | first }} 
+   <br>
+    <a href="{{ site.baseurl }}{{ post.url }}">查看文章...</a>
+   
+{% endfor %}
 
 </ul>
+
+  
+
