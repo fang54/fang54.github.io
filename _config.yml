@@ -12,7 +12,7 @@ title : 芳芳的花园
 tagline: 那个让你刻苦铭心的名字始终不是我。
 author :
   name : fang
-  email : **
+  email : 909051758@qq.com
   github : fang54
   twitter : fang54
   feedburner : fang54
@@ -25,7 +25,7 @@ author :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://username.github.io
+production_url : http://fang54.github.io
 
 gems: ["jekyll-sitemap"]
 
