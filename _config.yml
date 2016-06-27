@@ -8,14 +8,14 @@ highlighter: pygments
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : 芳芳的花园
-tagline: 那个让你刻苦铭心的名字始终不是我。
+title : maggie的网络日志
+tagline: Site Tagline
 author :
-  name : fang
-  email : 909051758@qq.com
-  github : fang54
-  twitter : fang54
-  feedburner : fang54
+  name : Name Lastname
+  email : maggielimz@qq.com
+  github : maggielmz
+  twitter : maggielmz
+  feedburner : maggielmz
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -25,7 +25,7 @@ author :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://fang54.github.io
+production_url : http://username.github.io
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -93,7 +93,7 @@ JB :
       width: 580
       colorscheme: light
     duoshuo :
-      short_name : fang
+      short_name : maggielmz
    
   # Settings for analytics helper
   # Set 'provider' to the analytics provider you want to use.
@@ -134,4 +134,4 @@ JB :
   
 
 #自定义的一些参数
-img_url: http://fang54.github.io/assets/images
+img_url: http://maggielmz.github.io/assets/images
