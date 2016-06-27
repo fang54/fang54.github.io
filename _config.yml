@@ -8,14 +8,14 @@ highlighter: pygments
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : maggie的网络日志
+title : fang的家园
 tagline: Site Tagline
 author :
   name : Name Lastname
-  email : maggielimz@qq.com
-  github : maggielmz
-  twitter : maggielmz
-  feedburner : maggielmz
+  email : 909051758@qq.com
+  github : fang54
+  twitter : fang54
+  feedburner : fang54
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -93,7 +93,7 @@ JB :
       width: 580
       colorscheme: light
     duoshuo :
-      short_name : maggielmz
+      short_name : fang
    
   # Settings for analytics helper
   # Set 'provider' to the analytics provider you want to use.
@@ -134,4 +134,4 @@ JB :
   
 
 #自定义的一些参数
-img_url: http://maggielmz.github.io/assets/images
+img_url: http://fang54.github.io/assets/images
